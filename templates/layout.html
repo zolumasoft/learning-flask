@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+	<meta charset="UTF-8">
+	<title>Learning Flask | {% block title %}{% endblock %}</title>
+</head>
+<body>
+<header>
+	<div class="container">
+		<h1 class="title">Learning Flask</h1>
+	</div>
+</header>
+{%block content %}
+{% endblock %}
+<!-- Add Bootstrap JavaScript CDN-->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</body>
+</html>
