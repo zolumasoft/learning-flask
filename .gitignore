@@ -3,3 +3,4 @@ venv/
 learning-code/
 .DS_Store
 *.pyc
+settings.py

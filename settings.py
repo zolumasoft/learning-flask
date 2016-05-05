@@ -1,8 +1,0 @@
-SECRET_KEY = '8438d839470f7f7d0b213891125af58588fed274a229f51343454c614a321fd5'
-APP_NAME = 'Latitude'
-DEBUG = True
-TESTING = False
-DB_USER = 'lat_user'
-DB_PASS = '2nic3T0Ca1L8'
-DB_NAME = 'latitudedb'
-SQLALCHEMY_DATABASE_URI = 'postgresql://{0}:{1}@postgres:5432/{2}'.format(DB_USER, DB_PASS, DB_NAME)
